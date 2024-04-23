@@ -22,40 +22,40 @@ if(aged >= 18 && aged <= 100){
 
 console.log(can_voted);
 
-// petCount = 4
-// MAX_PETS = 3
-// allowed = undefined
+petCount = 4
+MAX_PETS = 3
+allowed = undefined
 
-// if(petCount <= MAX_PETS){
-//     allowed = true;
-// }else{
-//     allowed = false;
-// }
-// console.log(allowed);
-
-// petCount = 2
-// MAX_PETS = 3
-// allowed = undefined
-
-// if(petCount <= MAX_PETS){
-//     allowed = true;
-// }else{
-//     allowed = false;
-// }
-// console.log(allowed);
-
-let petCount = 2
-let MAX_PETS = 3
-let allow = undefined
-let cashOnHand = 1000
-let DEPOSIT_AMOUNT = 1200
-let isWithinLimit = petCount <= MAX_PETS;
-let hasEnoughCash = cashOnHand >+ DEPOSIT_AMOUNT
-
-if(isWithinLimit && hasEnoughCash){
-    allow = true;
+if(petCount <= MAX_PETS){
+    allowed = true;
 }else{
-    allow = false;
+    allowed = false;
 }
+console.log(allowed);
 
-console.log(allow)
+petCount = 2
+MAX_PETS = 3
+allowed = undefined
+
+if(petCount <= MAX_PETS){
+    allowed = true;
+}else{
+    allowed = false;
+}
+console.log(allowed);
+
+// let petCount = 2
+// let MAX_PETS = 3
+// let allow = undefined
+// let cashOnHand = 1000
+// let DEPOSIT_AMOUNT = 1200
+// let isWithinLimit = petCount <= MAX_PETS;
+// let hasEnoughCash = cashOnHand >+ DEPOSIT_AMOUNT
+
+// if(isWithinLimit && hasEnoughCash){
+//     allow = true;
+// }else{
+//     allow = false;
+// }
+
+// console.log(allow)
