@@ -10,7 +10,7 @@ const evening = 1700 - 2399;
 
 if(morning  <= 1000){
     greeting = "Good morning! "
-}else if(day < 1001 < 1699){
+}else if(day <1001 < 1699){
     greeting = "Good day! "
 }else{
     greeting = "Good evening! "
