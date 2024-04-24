@@ -35,3 +35,5 @@ let n_d = Number(d);
 let u_d = +d; // Unary operator
 
 console.log(`"${d}"`, pi_d, pf_d, n_d, u_d);
+
+console.log(typeof u_d) // NaN is a type of number
