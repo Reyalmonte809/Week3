@@ -1,0 +1,37 @@
+<style>
+    body{
+        font-size: 2rem;
+    }
+    .sprite{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #move{
+        margin-top: 3rem;
+    }
+
+</style>
+<body>
+    <div class="sprite" id="hero">@</div>
+    <div class="sprite" id="gold">$</div>
+    <button id="move">Move</button>
+    <div id="output"></div>
+</body>
+<script>
+    function onclick(){
+        heroX += 5
+        hero.style.left =heroX + "px"
+        if(heroX == goldX){
+            score += 100
+            gold.remove()
+        }
+        output.innerText = "score: " + score;
+    }
+    // farie, pixie, fae, sprite
+    score = 0
+    heroX = 0
+    goldX = 100  
+    gold.style.left = goldX +"px" 
+    move.onclick = onclick;
+</script>
