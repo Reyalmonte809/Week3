@@ -1,0 +1,17 @@
+<body>
+   <label>Number 1<input type="number" id="a"></label>
+   <label>Number 2<input type= "number" id="b"></label>
+
+   <button id="add">Add</button>
+   <button id="sub">Subtract</button>
+   <button id="mul">Multiply</button>
+   <button id="div">Divide</button>
+   
+   <label>Answer:<input id="answer" readonly></label>
+</body>
+<script>
+    add.onclick = () => answer.value = Number(a.value) + Number(b.value)
+    sub.onclick = () => answer.value = Number(a.value) - Number(b.value)
+    mul.onclick = () => answer.value = Number(a.value) * Number(b.value)
+    div.onclick = () => answer.value = Number(a.value) / Number(b.value)
+</script>
